@@ -17,6 +17,10 @@ export default function Header(props) {
                 <img id="logo" src={`/logo192.png`} />
                 <h1 id="banner-name">{ siteTitle }</h1>
             </div>
+
+            <div id="banner-right">
+                <h1 id="banner-right-name">{ siteTitle }</h1>
+            </div>
             
             <div id="header-nav">
                 <ul>
@@ -58,9 +62,23 @@ export default function Header(props) {
                 top: 0px;
                 color: #fff;
             }
-            
             #logo {
+                position: absolute;
                 height: 100%;
+            }
+
+            #banner-right {
+                position: absolute;
+                right: 10px;
+                top: -10px;
+                z-index: 2;
+                display: none;
+            }
+            #banner-right-name {
+                position: absolute;
+                right: 0px;
+                top: 0px;
+                color: #fff;
             }
 
             #header-nav {
@@ -70,7 +88,7 @@ export default function Header(props) {
                 width: 200px;
                 height: 25px;
             }
-
+            
             ul {
                 position: absolute;
                 left: 0px;

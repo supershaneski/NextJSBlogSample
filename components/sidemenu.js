@@ -60,11 +60,15 @@ const SideMenu = (props) => {
             }
             p {
                 font-family: 'Meiryo','Hiragino Kaku Gothic Pro';
-                margin: 25px 10px 25px 15px;
+                line-height: 140%;
+                text-align: left;
+                margin: 0px;
                 padding: 0px;
-                text-indent: 1em;
-                line-height: 140%;                
+                text-indent: 0;
+                font-size: 0.8em;
+                font-style: italic;             
             }
+
             li {
                 margin: 10px 15px 0px 0px;
                 padding: 0px 0px 0px 0px;
@@ -75,15 +79,6 @@ const SideMenu = (props) => {
             }
             a:hover {
                 text-decoration: underline;
-            }
-
-            p {
-                text-align: left;
-                margin: 0px;
-                padding: 0px;
-                text-indent: 0;
-                font-size: 0.8em;
-                font-style: italic;
             }
 
             @media only screen and (max-width : 640px) {
