@@ -1,0 +1,20 @@
+/* This is the base style */
+body {
+    background-color: #282c34;
+    margin: 0px;
+    padding: 0px;
+}
+
+section.markdown {
+    padding: 0px 20px 30px 20px !important;
+}
+section.markdown p{
+    font-family: 'Helvetica';
+    margin: 0px 0px 15px 0px;
+    padding: 0px;
+    text-indent: 1em;
+    line-height: 140%; 
+}
+section.markdown img{
+    width: 95%;
+}
